@@ -12,8 +12,6 @@ app = Flask(__name__)
 dsn_hostname = os.environ['HOST_URL']
 dsn_uid = os.environ['DBUSERNAME']
 dsn_pwd = os.environ['PASSWORD']
-print(dsn_pwd)
-
 dsn_port = os.environ['PORT']
 dsn_database = "bludb"            
 dsn_driver = "{IBM DB2 ODBC DRIVER}"
